@@ -31,7 +31,7 @@ window.addEventListener('load', function(){
     elementoLi = document.createElement("li");
     elementoLi.setAttribute("class","col-4");
     elementoH4 = document.createElement("h4");
-    elementoH4.innerHTML = e.name+" y "+e.lastname;
+    elementoH4.innerHTML = e.name+" "+e.lastname;
     elementoDIV = document.createElement("div");
     elementoDIV.setAttribute("class","overlay");
     elementoIMG = document.createElement("img");

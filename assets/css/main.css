@@ -1,0 +1,59 @@
+html , body {
+	height: 100%;
+  font-family: 'Cutive Mono', monospace;
+}
+h4{
+  color: white;
+  position: relative;
+  top: 190px;
+  left: 77px;
+  z-index: 12;
+  font-weight: 100;
+  font-family: "Lato", Helvetica, sans-serif;
+}
+h2{
+  text-align: left;
+  font-weight: 100;
+  margin: 5px 0;
+}
+.border-title{
+	width: 14%;
+	border-bottom: 3px solid black;
+}
+.content{
+	position: relative;
+	height: 100%;
+	padding: 70px 25% ;
+	width: 55%;
+}
+ul{
+	padding: 0;
+	height: 100%;
+	width: 100%
+}
+.list-unstyled{
+	list-style: none;
+  margin-top: -45px;
+}
+.col-4{
+  position: relative;
+  margin-bottom: 25px;
+  width: 33.33%;
+  float: left;
+  height: 178px;
+  z-index: 10;
+}
+.overlay{
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  height: 178px;
+  width: 218px;
+  bottom: 0px;
+  top: 62px;
+  right: 0px;
+  left: 2px;
+}
+.overlay:hover{
+	background-color: transparent;
+	transition: background-color 0.8s ease;
+}
